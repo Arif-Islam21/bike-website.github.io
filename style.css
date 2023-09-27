@@ -8,18 +8,29 @@ header{
     background-color:rgba(6, 38, 117, 0.912);
     height: max-content;
     color: white;
-    overflow: scroll;
+    overflow:inherit;
+    width: 100%;
 }
-/* .nav-link, .active{
+.bg-custom{
+    background-color: rgba(6, 37, 117, 0.037);
     color: white;
-    margin-left: 20px;
-} */
+    font-weight: bold;
+}
+.headerCard{
+    height: 100%;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    box-shadow: none;
+    border: none;
+}
 .nav-item>a{
     color: white;
+    font-weight: bolder;
 }
 .loginBtn{
     background-color: orangered;
     color: whitesmoke;
+    font-weight: bolder;
     width: 100px;
     height: 60px;
 }
@@ -105,7 +116,7 @@ footer{
     width: 15%;
 }
 .last{
-    padding-left: 30%;
+    padding-left: 20%;
 }
 .web-store>img{
     padding: 5%;
