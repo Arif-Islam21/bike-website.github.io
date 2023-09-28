@@ -11,6 +11,10 @@ header{
     overflow:inherit;
     width: 100%;
 }
+.togglerColor{
+    background-color: orangered;
+    color: aqua;
+}
 .bg-custom{
     background-color: rgba(6, 37, 117, 0.037);
     color: white;
@@ -31,8 +35,8 @@ header{
     background-color: orangered;
     color: whitesmoke;
     font-weight: bolder;
-    width: 100px;
-    height: 60px;
+    width: 6rem;
+    height: 4rem;
 }
 .column{
     margin-bottom: 100px;
@@ -87,8 +91,8 @@ h5{
 .icons{
     display: flex;
     margin: 5% 20%;
-    height: 40px;
-    width: 40px;
+    height: 15%;
+    width: 15%;
 }
 .clientReview{
     color: rgba(19, 89, 210, 0.757);
@@ -120,4 +124,12 @@ footer{
 }
 .web-store>img{
     padding: 5%;
+}
+
+
+@media screen and (max-width: 576px) {
+    .container{
+        width: 96%;
+        margin: 0 2%;
+    }
 }
